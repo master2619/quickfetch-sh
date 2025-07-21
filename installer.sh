@@ -45,12 +45,12 @@ detect_arch() {
 # Download the correct binary based on architecture
 download_binary() {
     ARCH="$1"
-    BASE_URL="https://github.com/master2619/quickfetch-rust/releases/download/release"
+    BASE_URL="https://github.com/master2619/quickfetch-sh/releases/download/release"
 
     if [ "$ARCH" = "arm64" ]; then
-        FILE_NAME="quickfetch-rust-arm64"
+        FILE_NAME="quickfetch.sh"
     else
-        FILE_NAME="quickfetch-rust-amd64"
+        FILE_NAME="quickfetch.sh"
     fi
 
     DOWNLOAD_URL="${BASE_URL}/${FILE_NAME}"
@@ -71,7 +71,7 @@ download_binary() {
 
 # Move binary to destination and set permissions
 install_binary() {
-    DEST="/usr/bin/quickfetch"
+    DEST="/usr/bin/quickfetch.sh"
 
     echo "Installing to $DEST..."
     mv "$TMP_FILE" "$DEST"
