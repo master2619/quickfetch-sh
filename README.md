@@ -1,4 +1,4 @@
- **QuickFetch-rust**  
+ **QuickFetch-sh**  
 
 QuickFetch is a lightweight system information tool designed for Linux systems. It provides concise and visually appealing details about your system's configuration and usage. With QuickFetch, you can quickly access essential information such as the operating system, kernel version, hardware architecture, CPU and GPU specifications, memory usage, uptime, and package manager statistics.  
 
@@ -49,28 +49,28 @@ Locale: en_IN
 ### **Easy Installation (Debian-Based Distros)**  
 For Debian-based distributions (Ubuntu, Zorin OS, Pop!_OS, Linux Mint, etc.), you can install QuickFetch using a single command:  
 ```bash
-sudo apt install curl && curl -sSL https://github.com/master2619/quickfetch-rust/releases/download/release/installer.sh | sudo sh
+sudo apt install curl && curl -sSL https://github.com/master2619/quickfetch-sh/releases/download/release/installer.sh | sudo sh
 ```
 ### **Easy Installation (Fedora-based Distros)**
 For Fedora-based Linux distributions.
 ```bash
-sudo dnf install curl -y && curl -sSL https://github.com/master2619/quickfetch-rust/releases/download/release/installer.sh | sudo sh
+sudo dnf install curl -y && curl -sSL https://github.com/master2619/quickfetch-sh/releases/download/release/installer.sh | sudo sh
 ```
 ### **Easy Installation (Arch-Based Distros)**
 For Arch-based distributions like Manjaro, Arco Linux, etc.
 ```bash
-sudo pacman -S curl && curl -sSL https://github.com/master2619/quickfetch-rust/releases/download/release/installer.sh | sudo sh
+sudo pacman -S curl && curl -sSL https://github.com/master2619/quickfetch-sh/releases/download/release/installer.sh | sudo sh
 ```
 
 ## **Usage**  
 ```bash
-quickfetch
+quickfetch.sh
 ```
 
 ---
 
 ## **License**  
-GPL 3.0 License. See the LICENSE file for details.  
+MIT License. See the LICENSE file for details.  
 
 ---
 
@@ -80,7 +80,7 @@ Fork the repository and create a pull request with your changes.
 ---
 
 ## **Issues & Troubleshooting**  
-🔹 Ensure the binary is in `/usr/bin/`.  
+🔹 Ensure the script is in `/usr/bin/`.  
 🔹 Open an **issue** on GitHub for help.  
 
 ---
