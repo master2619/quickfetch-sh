@@ -71,7 +71,7 @@ download_binary() {
 
 # Move binary to destination and set permissions
 install_binary() {
-    DEST="/usr/bin/quickfetch.sh"
+    DEST="/usr/bin/quickfetch"
 
     echo "Installing to $DEST..."
     mv "$TMP_FILE" "$DEST"
